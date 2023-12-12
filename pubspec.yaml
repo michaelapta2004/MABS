@@ -1,0 +1,70 @@
+name: mabs
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.5
+  firebase_auth: ^4.5.0
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.9
+  intl: ^0.19.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto Mono
+      fonts: 
+        - asset: assets/fonts/RobotoMonoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoMonoBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Righteous
+      fonts: 
+        - asset: assets/fonts/RighteousRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Rowdies
+      fonts: 
+        - asset: assets/fonts/RowdiesRegular.ttf
+          weight: 400
+    - family: Rhodium Libre
+      fonts: 
+        - asset: assets/fonts/RhodiumLibreRegular.ttf
+          weight: 400
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
