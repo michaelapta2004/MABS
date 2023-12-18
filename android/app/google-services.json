@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203417021844",
+    "project_id": "mabs-c5276",
+    "storage_bucket": "mabs-c5276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203417021844:android:5f7918c76816ec39fd7381",
+        "android_client_info": {
+          "package_name": "com.mabs.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnLoMi7io89eLTnD9E8w44nF7WWisOgXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
