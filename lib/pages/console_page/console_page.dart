@@ -160,19 +160,27 @@ class ConsolePage extends StatelessWidget {
                         ),
                         SizedBox(height: 10.v),
                         Container(
-                          width: 309.h,
-                          padding: EdgeInsets.symmetric(
-                            horizontal: 20.h,
-                            vertical: 1.v,
+                          height: 50,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12.0),
                           ),
-                          decoration: AppDecoration.outlineBlack9003.copyWith(
-                            borderRadius: BorderRadiusStyle.roundedBorder6,
+                          child: Column(
+                            children: [
+                              TextField(
+                                onChanged: (text) {
+                                  print("User typed: $text");
+                                },
+                                style:
+                                    CustomTextStyles.titleMediumRobotoBlack900,
+                                decoration: InputDecoration(
+                                  contentPadding: EdgeInsets.all(10),
+                                  hintText: "lbl_type_here".tr,
+                                ),
+                              ),
+                            ],
                           ),
-                          child: Text(
-                            "lbl_type_here".tr,
-                            style: CustomTextStyles.titleMediumRobotoBlack900,
-                          ),
-                        ),
+                        )
                       ],
                     ),
                   ),

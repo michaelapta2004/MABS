@@ -16,7 +16,7 @@ class SetOnAboutUsScreen extends GetWidget<SetOnAboutUsController> {
             backgroundColor: appTheme.blueGray90001,
             appBar: _buildAppBar(),
             body: Container(
-                width: 331.h,
+                width: 351.h,
                 padding: EdgeInsets.symmetric(horizontal: 8.h),
                 child: Column(children: [
                   SizedBox(height: 15.v),
@@ -27,7 +27,7 @@ class SetOnAboutUsScreen extends GetWidget<SetOnAboutUsController> {
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.center,
                           style: CustomTextStyles.titleLargeRobotoBold)),
-                  SizedBox(height: 57.v),
+                  SizedBox(height: 11.v),
                   Text("msg_frequently_ask_question".tr,
                       textAlign: TextAlign.center,
                       style: CustomTextStyles.titleLargeRoboto_1),
